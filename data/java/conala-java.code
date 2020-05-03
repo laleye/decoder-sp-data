@@ -1,0 +1,882 @@
+int randomNum = rand.nextInt((max - min) + 1) + min;
+int answer = rn.nextInt(10) + 1;
+Map.Entry<String, String> entry = map.entrySet().iterator().next();
+for (Map.Entry<String, String> entry : MapObj.entrySet()) {
+    return entry;
+}
+String first = myMap.firstEntry().getValue();
+String firstOther = myMap.get(myMap.firstKey());
+return hashMapObject.entrySet().iterator().next();
+return new ArrayList(hashMapObject.entrySet()).get(0);
+return hashMapObject.entrySet().toArray()[0];
+public class A {
+
+    static int UNIQUE_ID = 0;
+
+    int uid = ++UNIQUE_ID;
+
+    public int hashCode() {
+        return uid;
+    }
+}
+long startTime = System.currentTimeMillis();
+long estimatedTime = System.currentTimeMillis() - startTime;
+long startTime = System.nanoTime();
+long estimatedTime = System.nanoTime() - startTime;
+Monitor monitor = MonitorFactory.start(thisJoinPoint.toShortString());
+Object returnedObject = proceed();
+monitor.stop();
+return returnedObject;
+TimeWatch watch = TimeWatch.start();
+long passedTimeInMs = watch.time();
+("00000000" + "Apple").substring("Apple".length());
+StringUtils.leftPad(yourString, 8, '0');
+return new File(MyClass.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
+String path = Test.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+String decodedPath = URLDecoder.decode(path, "UTF-8");
+if (c == null)
+    return null;
+try {
+    final URL codeSourceLocation = c.getProtectionDomain().getCodeSource().getLocation();
+    if (codeSourceLocation != null)
+        return codeSourceLocation;
+} catch (final SecurityException e) {
+} catch (final NullPointerException e) {
+}
+final URL classResource = c.getResource(c.getSimpleName() + ".class");
+if (classResource == null)
+    return null;
+final String url = classResource.toString();
+final String suffix = c.getCanonicalName().replace('.', '/') + ".class";
+if (!url.endsWith(suffix))
+    return null;
+final String base = url.substring(0, url.length() - suffix.length());
+String path = base;
+if (path.startsWith("jar:"))
+    path = path.substring(4, path.length() - 2);
+try {
+    return new URL(path);
+} catch (final MalformedURLException e) {
+    e.printStackTrace();
+    return null;
+}
+return url == null ? null : urlToFile(url.toString());
+String path = url;
+if (path.startsWith("jar:")) {
+    final int index = path.indexOf("!/");
+    path = path.substring(4, index);
+}
+try {
+    if (PlatformUtils.isWindows() && path.matches("file:[A-Za-z]:.*")) {
+        path = "file:/" + path.substring(5);
+    }
+    return new File(new URL(path).toURI());
+} catch (final MalformedURLException e) {
+} catch (final URISyntaxException e) {
+}
+if (path.startsWith("file:")) {
+    path = path.substring(5);
+    return new File(path);
+}
+throw new IllegalArgumentException("Invalid URL: " + url);
+mylist.add(mystring);
+str.add("Value1");
+str.add("Value1");
+str.add("Value1");
+str.add("Value1");
+str.add("Value1");
+return (container -> {
+    container.setPort(8012);
+});
+Collections.sort(unsortedList, new Comparator<Person>() {
+
+    @Override
+    public int compare(Person a, Person b) {
+        return b.getName().compareTo(a.getName());
+    }
+});
+Collections.sort(unsortedList, new Comparator<Person>() {
+
+    @Override
+    public int compare(Person a, Person b) {
+        return a.getName().compareTo(b.getName());
+    }
+});
+Collections.sort(personList, (Person a, Person b) -> b.getName().compareTo(a.getName()));
+personList.sort((a, b) -> b.getName().compareTo(a.getName()));
+Collections.sort(people);
+Collections.sort(people, Collections.reverseOrder());
+Collections.sort(people, Collections.reverseOrder(new Person.AgeComparator()));
+Collections.sort(people, new Person.AgeComparator());
+Map<K2, K1> m2;
+Map<K1, V> m1;
+response.sendRedirect(redirectURL);
+tv.setText(new DecimalFormat("##.##").format(i2));
+String.format("%.2f", i2);
+value = Double.parseDouble(new DecimalFormat("##.####").format(value));
+final Handler handler = new Handler();
+handler.postDelayed(new Runnable() {
+
+    @Override
+    public void run() {
+        buttons[inew][jnew].setBackgroundColor(Color.BLACK);
+    }
+}, 5000);
+new CountDownTimer(30000, 1000) {
+
+    public void onFinish() {
+    }
+
+    public void onTick(long millisUntilFinished) {
+    }
+}.start();
+Thread.sleep(millis);
+Map<Integer, String> sortedMap = unsortedMap.entrySet().stream().sorted(Entry.comparingByValue()).collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+Map<String, Integer> sortedMapAsc = sortByComparator(unsortMap, ASC);
+Map<String, Integer> sortedMapDesc = sortByComparator(unsortMap, DESC);
+List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());
+List<String> mapValues = new ArrayList<>(passedMap.values());
+Collections.sort(mapValues);
+Collections.sort(mapKeys);
+LinkedHashMap<Integer, String> sortedMap = new LinkedHashMap<>();
+Iterator<String> valueIt = mapValues.iterator();
+while (valueIt.hasNext()) {
+    String val = valueIt.next();
+    Iterator<Integer> keyIt = mapKeys.iterator();
+    while (keyIt.hasNext()) {
+        Integer key = keyIt.next();
+        String comp1 = passedMap.get(key);
+        String comp2 = val;
+        if (comp1.equals(comp2)) {
+            keyIt.remove();
+            sortedMap.put(key, val);
+            break;
+        }
+    }
+}
+if (f.exists() && !f.isDirectory()) {
+}
+new File("path/to/file.txt").isFile();
+new File("C:/").exists();
+Path path = Paths.get(filePathString);
+if (Files.exists(path)) {
+}
+char c = reader.next().charAt(0);
+char c = reader.findInLine(".").charAt(0);
+char c = reader.next(".").charAt(0);
+reader.useDelimiter("");
+char c = reader.next().charAt(0);
+char c = reader.next().trim().charAt(0);
+File sdCard = Environment.getExternalStorageDirectory();
+File dir = new File(sdCard.getAbsolutePath() + "/dir1/dir2");
+dir.mkdirs();
+File file = new File(dir, "filename");
+FileOutputStream f = new FileOutputStream(file);
+FileWriter writer = new FileWriter(getExternalStorageDirectory());
+writer.write("This\n is\n an\n example\n");
+writer.flush();
+writer.close();
+System.out.println("I\nam\na\nboy");
+System.out.println("I am a boy".replaceAll("\\s+", "\n"));
+System.out.println("I am a boy".replaceAll("\\s+", System.getProperty("line.separator")));
+String x = "Hello," + System.lineSeparator() + "there";
+System.out.println("I\nam\na\nboy");
+BufferedReader br = new BufferedReader(new FileReader(fileName));
+try {
+    StringBuilder sb = new StringBuilder();
+    String line = br.readLine();
+    while (line != null) {
+        sb.append(line);
+        sb.append("\n");
+        line = br.readLine();
+    }
+    return sb.toString();
+} finally {
+    br.close();
+}
+SimpleDateFormat isoFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+isoFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+Date date = isoFormat.parse("2010-05-23T09:01:02");
+TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+str.add(1, 11);
+str.add(2, 12);
+arrayList.add(1, "INSERTED ELEMENT");
+CloseableHttpClient httpClient = HttpClients.createDefault();
+HttpPost uploadFile = new HttpPost("...");
+MultipartEntityBuilder builder = MultipartEntityBuilder.create();
+builder.addTextBody("field1", "yes", ContentType.TEXT_PLAIN);
+File f = new File("[/path/to/upload]");
+builder.addBinaryBody("file", new FileInputStream(f), ContentType.APPLICATION_OCTET_STREAM, f.getName());
+HttpEntity multipart = builder.build();
+uploadFile.setEntity(multipart);
+CloseableHttpResponse response = httpClient.execute(uploadFile);
+HttpEntity responseEntity = response.getEntity();
+HttpClient httpclient = new DefaultHttpClient();
+HttpPost httppost = new HttpPost(url);
+FileBody bin = new FileBody(new File(fileName));
+StringBody comment = new StringBody("Filename: " + fileName);
+MultipartEntity reqEntity = new MultipartEntity();
+reqEntity.addPart("bin", bin);
+reqEntity.addPart("comment", comment);
+httppost.setEntity(reqEntity);
+HttpResponse response = httpclient.execute(httppost);
+HttpEntity resEntity = response.getEntity();
+HttpClient httpclient = new DefaultHttpClient();
+HttpPost httpPost = new HttpPost(url);
+FileBody uploadFilePart = new FileBody(uploadFile);
+MultipartEntity reqEntity = new MultipartEntity();
+reqEntity.addPart("upload-file", uploadFilePart);
+httpPost.setEntity(reqEntity);
+HttpResponse response = httpclient.execute(httpPost);
+HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+connection.setDoOutput(true);
+connection.setRequestMethod("POST");
+FileBody fileBody = new FileBody(new File(fileName));
+MultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.STRICT);
+multipartEntity.addPart("file", fileBody);
+connection.setRequestProperty("Content-Type", multipartEntity.getContentType().getValue());
+OutputStream out = connection.getOutputStream();
+try {
+    multipartEntity.writeTo(out);
+} finally {
+    out.close();
+}
+int status = connection.getResponseCode();
+MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
+List<MyClass> myObjects = mapper.readValue(jsonInput, new TypeReference<List<MyClass>>() {
+});
+List<MyClass> myObjects = mapper.readValue(jsonInput, mapper.getTypeFactory().constructCollectionType(List.class, MyClass.class));
+List<MyClass> myObjects = Arrays.asList(mapper.readValue(json, MyClass[].class));
+JsonParser jp = f.createJsonParser(new File("C:\\maven\\user.json"));
+TypeReference<List<User>> tRef = new TypeReference<List<User>>() {
+};
+lstUser = mapper.readValue(jp, tRef);
+Field stringListField = Test.class.getDeclaredField("stringList");
+ParameterizedType stringListType = (ParameterizedType) stringListField.getGenericType();
+Class<?> stringListClass = (Class<?>) stringListType.getActualTypeArguments()[0];
+Field integerListField = Test.class.getDeclaredField("integerList");
+ParameterizedType integerListType = (ParameterizedType) integerListField.getGenericType();
+Class<?> integerListClass = (Class<?>) integerListType.getActualTypeArguments()[0];
+Collections.sort(fruits, new Comparator<Fruit>() {
+
+    @Override
+    public int compare(Fruit fruit2, Fruit fruit1) {
+        return fruit1.fruitName.compareTo(fruit2.fruitName);
+    }
+});
+Collections.sort(fruitList);
+Collections.sort(fruits, fieldComparator);
+Random rnd = ThreadLocalRandom.current();
+for (int i = ar.length - 1; i > 0; i--) {
+    int index = rnd.nextInt(i + 1);
+    int a = ar[index];
+    ar[index] = ar[i];
+    ar[i] = a;
+}
+Collections.shuffle(solution);
+int index;
+Random random = new Random();
+for (int i = array.length - 1; i > 0; i--) {
+    index = random.nextInt(i + 1);
+    if (index != i) {
+        array[index] ^= array[i];
+        array[i] ^= array[index];
+        array[index] ^= array[i];
+    }
+}
+int index, temp;
+Random random = new Random();
+for (int i = array.length - 1; i > 0; i--) {
+    index = random.nextInt(i + 1);
+    temp = array[index];
+    array[index] = array[i];
+    array[i] = temp;
+}
+for (i = 0; i < array.length / 2; i++) {
+    int temp = array[i];
+    array[i] = array[array.length - 1 - i];
+    array[array.length - 1 - i] = temp;
+}
+Collections.reverse(Arrays.asList(array));
+Collections.reverse(list);
+test.split("\\|");
+test.split(Pattern.quote("|"));
+string.split(Pattern.quote("|"));
+String[] result = test.split("\\|");
+URL url = new URL(urlString);
+HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+in = new BufferedInputStream(urlConnection.getInputStream());
+HttpClient httpclient = new DefaultHttpClient();
+HttpPost httppost = new HttpPost("http://www.yoursite.com/script.php");
+try {
+    List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
+    nameValuePairs.add(new BasicNameValuePair("id", "12345"));
+    nameValuePairs.add(new BasicNameValuePair("stringdata", "Hi"));
+    httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+    HttpResponse response = httpclient.execute(httppost);
+} catch (ClientProtocolException e) {
+} catch (IOException e) {
+}
+URL url;
+String response = "";
+try {
+    url = new URL(requestURL);
+    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+    conn.setReadTimeout(15000);
+    conn.setConnectTimeout(15000);
+    conn.setRequestMethod("GET");
+    conn.setDoInput(true);
+    conn.setDoOutput(true);
+    OutputStream os = conn.getOutputStream();
+    BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+    writer.write(getPostDataString(postDataParams));
+    writer.flush();
+    writer.close();
+    os.close();
+    int responseCode = conn.getResponseCode();
+    if (responseCode == HttpsURLConnection.HTTP_OK) {
+        String line;
+        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        while ((line = br.readLine()) != null) {
+            response += line;
+        }
+    } else {
+        response = "";
+    }
+} catch (Exception e) {
+    e.printStackTrace();
+}
+SOAPConnectionFactory soapConnectionFactory = SOAPConnectionFactory.newInstance();
+SOAPConnection soapConnection = soapConnectionFactory.createConnection();
+String url = "http://ws.cdyne.com/emailverify/Emailvernotestemail.asmx";
+SOAPMessage soapResponse = soapConnection.call(createSOAPRequest(), url);
+printSOAPResponse(soapResponse);
+soapConnection.close();
+String res = defaultWebService.getDefaultWebServiceHttpSoap11Endpoint().login("webservice", "dadsadasdasd");
+List<String> myList = new ArrayList<String>(Arrays.asList(s.split(",")));
+List<String> myList = new ArrayList<String>(Arrays.asList(s.split(",")));
+String replace = s1.replace("[", "");
+System.out.println(replace);
+String replace1 = replace.replace("]", "");
+System.out.println(replace1);
+List<String> myList = new ArrayList<String>(Arrays.asList(replace1.split(",")));
+ArrayList<Character> charList = new ArrayList<Character>();
+for (int i = 0; i < str.length(); i++) {
+    charList.add(str.charAt(i));
+}
+int width = bimg.getWidth();
+int height = bimg.getHeight();
+reader = new BufferedReader(new FileReader(file));
+String text = null;
+while ((text = reader.readLine()) != null) {
+    list.add(Integer.parseInt(text));
+}
+while (scanner.hasNext()) {
+    if (scanner.hasNextInt()) {
+        integers.add(scanner.nextInt());
+    } else {
+        scanner.next();
+    }
+}
+BufferedReader br = new BufferedReader(new FileReader("textfile.txt"));
+String strLine;
+while ((strLine = br.readLine()) != null) {
+    System.out.println(strLine);
+}
+for (int i = 0; i < validData.length / 2; i++) {
+    int temp = validData[i];
+    validData[i] = validData[validData.length - i - 1];
+    validData[validData.length - i - 1] = temp;
+}
+List<Object> list = Arrays.asList(arr);
+Collections.reverse(list);
+myclass.add(new xClass());
+myclass.add(new xClass());
+list.add(new xClass());
+s = s.substring(0, s.length() - 1);
+str = str.replaceAll("[,.]", "");
+s = s.substring(0, s.length() - 1);
+s = s.replace(",", "");
+s = s.replace(".", "");
+System.out.println(list.get(index));
+TimeZone tz = TimeZone.getTimeZone("UTC");
+DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'");
+df.setTimeZone(tz);
+String nowAsISO = df.format(new Date());
+TimeZone tz = TimeZone.getTimeZone("UTC");
+DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'");
+df.setTimeZone(tz);
+String nowAsISO = df.format(new Date());
+thisMoment = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mmX").withZone(ZoneOffset.UTC).format(Instant.now());
+thisMoment = String.format("%tFT%<tRZ", Calendar.getInstance(TimeZone.getTimeZone("Z")));
+Collections.sort(recipes, new RecipeCompare());
+Collections.sort(recipes, (Recipe r1, Recipe r2) -> r1.getID().compareTo(r2.getID()));
+Character.toString((char) i);
+String str = Arrays.toString(arr);
+StringBuilder builder = new StringBuilder();
+for (String s : arr) {
+    builder.append(s);
+}
+String str = builder.toString();
+String str = String.join(",", arr);
+String joinedString = StringUtils.join(new Object[] { "a", "b", 1 }, "-");
+Joiner.on(", ").skipNulls().join("Harry", null, "Ron", "Hermione");
+String.join(", ", "Harry", "Ron", "Hermione");
+Collections.sort(myList, new Comparator<MyObject>() {
+
+    public int compare(MyObject o1, MyObject o2) {
+        return o1.getDateTime().compareTo(o2.getDateTime());
+    }
+});
+Collections.sort(myList, new Comparator<MyObject>() {
+
+    public int compare(MyObject o1, MyObject o2) {
+        if (o1.getDateTime() == null || o2.getDateTime() == null)
+            return 0;
+        return o1.getDateTime().compareTo(o2.getDateTime());
+    }
+});
+Collections.sort(myList);
+Collections.sort(myList);
+Collections.sort(myList, new Comparator<MyObject>() {
+
+    public int compare(MyObject o1, MyObject o2) {
+        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;
+    }
+});
+float z = (float) x / y;
+float z = x / (float) y;
+float z = (float) x / (float) y;
+float f = (float) x / y;
+double d = (double) x / y;
+float z = x * 1.0 / y;
+String[] errorSoon = new String[100];
+String[] errorSoon = { "Hello", "World" };
+String[] errorSoon = new String[2];
+errorSoon[0] = "Hello";
+errorSoon[1] = "World";
+String[] args = new String[] { "firstarg", "secondarg", "thirdarg" };
+String[] errorSoon = { "foo", "bar" };
+String[] errorSoon = new String[2];
+errorSoon[0] = "foo";
+errorSoon[1] = "bar";
+public static void permutation(String str) {
+    permutation("", str);
+}
+private static void permutation(String prefix, String str) {
+    int n = str.length();
+    if (n == 0)
+        System.out.println(prefix);
+    else {
+        for (int i = 0; i < n; i++) permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n));
+    }
+}
+public static ArrayList<String> permutation(String s) {
+    ArrayList<String> res = new ArrayList<String>();
+    if (s.length() == 1) {
+        res.add(s);
+    } else if (s.length() > 1) {
+        int lastIndex = s.length() - 1;
+        String last = s.substring(lastIndex);
+        String rest = s.substring(0, lastIndex);
+        res = merge(permutation(rest), last);
+    }
+    return res;
+}
+public static ArrayList<String> merge(ArrayList<String> list, String c) {
+    ArrayList<String> res = new ArrayList<String>();
+    for (String s : list) {
+        for (int i = 0; i <= s.length(); ++i) {
+            String ps = new StringBuffer(s).insert(i, c).toString();
+            res.add(ps);
+        }
+    }
+    return res;
+}
+listName.isEmpty();
+for (int i = 0; i < 5; i++) System.out.println("    *********".substring(i, 5 + 2 * i));
+for (int i = 1; i < 10; i += 2) {
+    for (int k = 0; k < (4 - i / 2); k++) {
+        System.out.print(" ");
+    }
+    for (int j = 0; j < i; j++) {
+        System.out.print("*");
+    }
+    System.out.println("");
+}
+for (int i = 0; i < 5; i++) {
+    printTriangleLine(i);
+}
+String prefix = "";
+for (String serverId : serverIds) {
+    sb.append(prefix);
+    prefix = ",";
+    sb.append(serverId);
+}
+sb.setLength(sb.length() - 1);
+if (sb.length() > 0) {
+    sb.setLength(sb.length() - 1);
+}
+sb.setLength(Math.max(sb.length() - 1, 0));
+sb.deleteCharAt(sb.length() - 1);
+System.out.print("\b\b\b\b\b");
+Runtime.getRuntime().exec("cls");
+System.out.print(String.format("\033[%dA", count));
+System.out.print("\033[2K");
+System.out.print(String.format("\033[2J"));
+System.out.print("\b\b\b\b\b");
+System.out.print(String.format("\033[2J"));
+long duration = endDate.getTime() - startDate.getTime();
+long diff = dt2.getTime() - dt1.getTime();
+Period p = new Period(startTime, endTime);
+long hours = p.getHours();
+long minutes = p.getMinutes();
+Duration dur = Duration.between(start, stop);
+long hours = dur.toHours();
+long minutes = dur.toMinutes();
+final String currentUser = principal.getName();
+List<String> keys = new ArrayList<String>(map.keySet());
+Collections.sort(keys, someComparator);
+for (String key : keys) {
+    System.out.println(key + ": " + map.get(key));
+}
+Map<String, String> reversedMap = new TreeMap<String, String>(codes);
+for (Map.Entry entry : reversedMap.entrySet()) {
+    System.out.println(entry.getKey() + ", " + entry.getValue());
+}
+String[] lines = string.split("\\r?\\n");
+String.split("[\\r\\n]+");
+Date parsedDate = dateFormat.parse(yourString);
+Timestamp timestamp = new java.sql.Timestamp(parsedDate.getTime());
+Date date = formatter.parse(str_date);
+java.sql.Timestamp timeStampDate = new Timestamp(date.getTime());
+System.out.println(b & 0xFF);
+return b & 0xFF;
+int unsignedByte = b & 0xFF;
+System.out.println(unsignedByte);
+byte[] b = s.getBytes("UTF-8");
+String s = new String(b, "US-ASCII");
+return new String(bytes, UTF8_CHARSET);
+return string.getBytes(UTF8_CHARSET);
+if (str != null && str.length() > 0 && str.charAt(str.length() - 1) == 'x') {
+    str = str.substring(0, str.length() - 1);
+}
+return str.substring(0, str.length() - 1);
+return str.substring(0, str.length() - 1);
+"aaabcd".replaceFirst(".$", "");
+try (Connection connection = DriverManager.getConnection(url, username, password)) {
+    System.out.println("Database connected!");
+} catch (SQLException e) {
+    throw new IllegalStateException("Cannot connect the database!", e);
+}
+Connection conn = dataSource.getConnection();
+Connection conn = dataSource.getConnection();
+Class.forName(DATABASE_DRIVER);
+connection = DriverManager.getConnection(DATABASE_URL, getProperties());
+if (s.equals(new StringBuilder(s).reverse().toString())) {
+}
+String workingCopy = removeJunk(stringToTest);
+String reversedCopy = reverse(workingCopy);
+return reversedCopy.equalsIgnoreCase(workingCopy);
+new String("test").equals("test");
+Objects.equals("test", new String("test"));
+Objects.equals(null, "test");
+fooString1.equals(fooString2);
+nullString1.equals(nullString2);
+String hexString = new String(Hex.encodeHex(messageDigest));
+BigInteger bi = new BigInteger(1, bytes);
+StringBuilder hexString = new StringBuilder();
+for (int i = 0; i < bytes.length; i++) {
+    String hex = Integer.toHexString(0xFF & bytes[i]);
+    if (hex.length() == 1) {
+        hexString.append('0');
+    }
+    hexString.append(hex);
+}
+String[] tokens = pdfName.split("-|\\.");
+String[] tokens = pdfName.split("\\W");
+label.setForeground(Color.RED);
+frame.add(new JLabel("<html>Text color: <font color='red'>red</font></html>"));
+title.setForeground(Color.white);
+label.setForeground(Color.red);
+Set<Integer> generated = new LinkedHashSet<Integer>();
+while (generated.size() < numbersNeeded) {
+    Integer next = rng.nextInt(max) + 1;
+    generated.add(next);
+}
+ArrayList<Integer> list = new ArrayList<Integer>(size);
+for (int i = 1; i <= size; i++) {
+    list.add(i);
+}
+while (list.size() > 0) {
+    int index = rand.nextInt(list.size());
+    System.out.println("Selected: " + list.remove(index));
+}
+ArrayList<Integer> numbers = new ArrayList<Integer>();
+while (numbers.size() < 4) {
+    int random = randomGenerator.nextInt(4);
+    if (!numbers.contains(random)) {
+        numbers.add(random);
+    }
+}
+List<Map.Entry<K, V>> list = new LinkedList<Map.Entry<K, V>>(map.entrySet());
+Collections.sort(list, new Comparator<Map.Entry<K, V>>() {
+
+    public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2) {
+        return (o1.getValue()).compareTo(o2.getValue());
+    }
+});
+Map<K, V> result = new LinkedHashMap<K, V>();
+for (Map.Entry<K, V> entry : list) {
+    result.put(entry.getKey(), entry.getValue());
+}
+List<Map.Entry<K, V>> list = new LinkedList<>(map.entrySet());
+Collections.sort(list, new Comparator<Map.Entry<K, V>>() {
+
+    @Override
+    public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2) {
+        return (o1.getValue()).compareTo(o2.getValue());
+    }
+});
+Map<K, V> result = new LinkedHashMap<>();
+for (Map.Entry<K, V> entry : list) {
+    result.put(entry.getKey(), entry.getValue());
+}
+return map.entrySet().stream().sorted(Map.Entry.comparingByValue()).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+sorted_map.putAll(map);
+map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);
+map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);
+map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);
+int r;
+while ((r = reader.read()) != -1) {
+    char ch = (char) r;
+    System.out.println("Do something with " + ch);
+}
+BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8")));
+int c;
+while ((c = reader.read()) != -1) {
+    char character = (char) c;
+}
+BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+int c = 0;
+while ((c = buffer.read()) != -1) {
+    char character = (char) c;
+    System.out.println(character);
+}
+fh = new FileHandler("C:/temp/test/MyLogFile.log");
+logger.addHandler(fh);
+SimpleFormatter formatter = new SimpleFormatter();
+fh.setFormatter(formatter);
+logger.info("My first log");
+logger.info("info msg");
+logger.severe("error message");
+logger.fine("fine message");
+CharSequence cs = s;
+CharSequence cs = new String("string");
+CharSequence cs = "string";
+where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + "=1");
+where.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + "=1");
+list.add("1");
+list.add("2");
+list.add("3");
+arr = append(arr, "4");
+where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + "=1");
+where.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + "=1");
+System.getProperty("user.name");
+java.net.InetAddress localMachine = java.net.InetAddress.getLocalHost();
+System.out.println("Hostname of local machine: " + localMachine.getHostName());
+System.getProperty("user.name");
+InetAddress.getLocalHost().getHostName();
+long length = f.length();
+long size = f.length();
+HashMap<String, Object> o = mapper.readValue(from, typeRef);
+result = mapper.readValue(data, type);
+Map<String, String> result = new ObjectMapper().readValue(data, TypeFactory.mapType(HashMap.class, String.class, String.class));
+props = new ObjectMapper().readValue(src, new TypeReference<HashMap<String, Object>>() {
+});
+props = (HashMap<String, Object>) new ObjectMapper().readValue(src, HashMap.class);
+props = new ObjectMapper().readValue(src, HashMap.class);
+if (lista.contains(conta1)) {
+    System.out.println("Account found");
+} else {
+    System.out.println("Account not found");
+}
+System.out.println("Is checkUserOne Preasent = ? " + employeeList.contains(checkUserOne));
+System.out.println("Is checkUserTwo Preasent = ? " + employeeList.contains(checkUserTwo));
+Set<T> keys = new HashSet<T>();
+for (Entry<T, E> entry : map.entrySet()) {
+    if (Objects.equals(value, entry.getValue())) {
+        keys.add(entry.getKey());
+    }
+}
+for (Entry<T, E> entry : map.entrySet()) {
+    if (Objects.equals(value, entry.getValue())) {
+        return entry.getKey();
+    }
+}
+return map.entrySet().stream().filter(entry -> Objects.equals(entry.getValue(), value)).map(Map.Entry::getKey).collect(Collectors.toSet());
+Token token = tokenToChar.inverse().get('(');
+for (Entry<Integer, String> entry : testMap.entrySet()) {
+    if (entry.getValue().equals("c")) {
+        System.out.println(entry.getKey());
+    }
+}
+List<String> list = new ArrayList<String>(Arrays.asList(array));
+list.removeAll(Arrays.asList("a"));
+array = list.toArray(array);
+List<String> list = new ArrayList<String>(Arrays.asList(array));
+list.removeAll(Arrays.asList("a"));
+array = list.toArray(new String[0]);
+List<String> list = new ArrayList<>();
+Collections.addAll(list, array);
+list.removeAll(Arrays.asList("a"));
+array = list.toArray(EMPTY_STRING_ARRAY);
+List<String> list = new ArrayList<>();
+Collections.addAll(list, array);
+list.removeAll(Arrays.asList("a"));
+array = list.toArray(new String[list.size()]);
+String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);
+String[] ar = new String[2];
+ar[0] = name;
+ar[1] = location;
+return ar;
+if (!resultSet.isBeforeFirst()) {
+}
+if (!resultSet.next()) {
+}
+String result = str.substring(0, index) + str.substring(index + 1);
+a = a.replace("o", "");
+Map<String, Item> map = list.stream().collect(Collectors.toMap(Item::getKey, item -> item));
+Map<String, Item> map = list.stream().collect(Collectors.toMap(Item::getKey, item -> item));
+System.setProperty("user.timezone", "EST");
+System.out.println((char) 27 + "[34;43mBlue text with yellow background");
+System.out.println((char) 27 + "[31mThis text would show up red" + (char) 27 + "[0m");
+WordUtils.capitalize(str);
+char[] chars = string.toLowerCase().toCharArray();
+boolean found = false;
+for (int i = 0; i < chars.length; i++) {
+    if (!found && Character.isLetter(chars[i])) {
+        chars[i] = Character.toUpperCase(chars[i]);
+        found = true;
+    } else if (Character.isWhitespace(chars[i]) || chars[i] == '.' || chars[i] == '\'') {
+        found = false;
+    }
+}
+SortedSet<String> keys = new TreeSet<String>(map.keySet());
+SortedSet<Foo> keys = new TreeSet<Foo>(comparator);
+keys.addAll(map.keySet());
+List sortedKeys = new ArrayList(yourMap.keySet());
+Collections.sort(sortedKeys);
+Map<String, String> treeMap = new TreeMap<String, String>(map);
+return Jsoup.parse(html).text();
+android.text.Html.fromHtml(instruction).toString();
+replaceAll("\\<[^>]*>", "");
+return clazz.newInstance();
+new Foo<Bar>();
+return factory.create();
+btn.setPreferredSize(new Dimension(40, 40));
+btn.setPreferredSize(new Dimension(100, 100));
+btn.setPreferredSize(new Dimension(40, 40));
+private transient String name;
+@Expose
+private Long id;
+Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
+Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat()).create();
+Student src = new Student();
+String json = gson.toJson(src);
+Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat("in.naishe.test.Country.name")).create();
+Student src = new Student();
+String json = gson.toJson(src);
+ServletContext context = getContext();
+String fullPath = context.getRealPath("/WEB-INF/test/foo.txt");
+ServletContext context = getContext();
+URL resourceUrl = context.getResource("/WEB-INF/test/foo.txt");
+InputStream resourceContent = context.getResourceAsStream("/WEB-INF/test/foo.txt");
+InputStream resource = getServletContext().getResourceAsStream("/WEB-INF/my.json");
+if (arr == null) {
+}
+ArrayUtils.isNotEmpty(testArrayName);
+if (i.length == 0) {
+}
+if (i == null || i.length == 0) {
+}
+File directory = new File(directoryName);
+File[] fList = directory.listFiles();
+for (File file : fList) {
+    if (file.isFile()) {
+        files.add(file);
+    } else if (file.isDirectory()) {
+        listf(file.getAbsolutePath(), files);
+    }
+}
+File directory = new File(directoryName);
+List<File> resultList = new ArrayList<File>();
+File[] fList = directory.listFiles();
+resultList.addAll(Arrays.asList(fList));
+for (File file : fList) {
+    if (file.isFile()) {
+        System.out.println(file.getAbsolutePath());
+    } else if (file.isDirectory()) {
+        resultList.addAll(listf(file.getAbsolutePath()));
+    }
+}
+boolean[] array = new boolean[size];
+Arrays.fill(array, Boolean.FALSE);
+System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
+print("Hello World!", Attribute.BOLD, FColor.YELLOW, BColor.GREEN);
+System.out.println(new String(list).indexOf("e"));
+int index = -1;
+for (int i = 0; (i < list.length) && (index == -1); i++) {
+    if (list[i] == 'e') {
+        index = i;
+    }
+}
+System.out.println(list.indexOf('e'));
+System.out.println(list.indexOf('e'));
+for (int i = 0; i < list.length; i++) {
+    if (list[i] == 'e') {
+        System.out.println(i);
+        break;
+    }
+}
+int[] array = list.stream().mapToInt(i -> i).toArray();
+int[] ints = Ints.toArray(list);
+int[] intArray = ArrayUtils.toPrimitive(myList.toArray(new Integer[myList.size()]));
+int[] intArray2 = ArrayUtils.toPrimitive(myList.toArray(NO_INTS));
+Map<String, Choice> result = choices.stream().collect(Collectors.toMap(Choice::getName, Function.identity()));
+Map<String, List<Choice>> result = choices.stream().collect(Collectors.groupingBy(Choice::getName));
+Map<String, Choice> result = choices.stream().collect(Collectors.toMap(Choice::getName, c -> c));
+int i = rno[0];
+Byte b = rno[0];
+int i = b.intValue();
+Byte b = new Byte(rno[0]);
+int i = b.intValue();
+int v1 = b;
+int i = (int) d;
+int i = (int) d;
+int i = (int) d;
+int i = Integer.valueOf(D.intValue());
+Long L = Math.round(d);
+int i = Integer.valueOf(L.intValue());
+String content = new Scanner(new File("filename")).useDelimiter("\\Z").next();
+new String(Files.readAllBytes(Paths.get(filePath)));
+FileInputStream fisTargetFile = new FileInputStream(new File("test.txt"));
+String targetFileStr = IOUtils.toString(fisTargetFile, "UTF-8");
+ArrayList<ArrayList<Individual>> group = new ArrayList<ArrayList<Individual>>(4);
+List<List<Individual>> group = new ArrayList<List<Individual>>(4);
+ArrayList<Individual>[] group = (ArrayList<Individual>[]) new ArrayList[4];
+ArrayList<String>[] group = new ArrayList[4];
+XMLReader myReader = XMLReaderFactory.createXMLReader();
+myReader.setContentHandler(handler);
+myReader.parse(new InputSource(new URL(url).openStream()));
+DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+DocumentBuilder db = dbf.newDocumentBuilder();
+Document doc = db.parse(new URL(url).openStream());
+URL url = new URL(urlString);
+URLConnection conn = url.openConnection();
+DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+DocumentBuilder builder = factory.newDocumentBuilder();
+Document doc = builder.parse(conn.getInputStream());
+XMLReader myReader = XMLReaderFactory.createXMLReader();
+myReader.setContentHandler(handler);
+myReader.parse(new InputSource(new URL(url).openStream()));

@@ -1,0 +1,1322 @@
+[
+    {
+        "intent": "Generating a Random Number between 1 and 10 Java",
+        "snippet": "int answer = rn.nextInt(10) + 1;"
+    },
+    {
+        "intent": "Generating a Random Number between 1 and 10 Java",
+        "snippet": "int answer = rn.nextInt(10) + 1;"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "how to get the one entry from hashmap without iterating",
+        "snippet": "return hashMapObject.entrySet().toArray()[0];"
+    },
+    {
+        "intent": "How to get the unique ID of an object which overrides hashCode()?",
+        "snippet": "public class A {\n\n    static int UNIQUE_ID = 0;\n\n    int uid = ++UNIQUE_ID;\n\n    public int hashCode() {\n        return uid;\n    }\n}"
+    },
+    {
+        "intent": "How do I measure time elapsed in Java?",
+        "snippet": "TimeWatch watch = TimeWatch.start();\nlong passedTimeInMs = watch.time();"
+    },
+    {
+        "intent": "How do I measure time elapsed in Java?",
+        "snippet": "TimeWatch watch = TimeWatch.start();\nlong passedTimeInMs = watch.time();"
+    },
+    {
+        "intent": "How do I measure time elapsed in Java?",
+        "snippet": "TimeWatch watch = TimeWatch.start();\nlong passedTimeInMs = watch.time();"
+    },
+    {
+        "intent": "How do I measure time elapsed in Java?",
+        "snippet": "TimeWatch watch = TimeWatch.start();\nlong passedTimeInMs = watch.time();"
+    },
+    {
+        "intent": "How to format a Java string with leading zero?",
+        "snippet": "StringUtils.leftPad(yourString, 8, '0');"
+    },
+    {
+        "intent": "How to format a Java string with leading zero?",
+        "snippet": "StringUtils.leftPad(yourString, 8, '0');"
+    },
+    {
+        "intent": "How to get the path of a running JAR file?",
+        "snippet": "String path = url;\nif (path.startsWith(\"jar:\")) {\n    final int index = path.indexOf(\"!/\");\n    path = path.substring(4, index);\n}\ntry {\n    if (PlatformUtils.isWindows() && path.matches(\"file:[A-Za-z]:.*\")) {\n        path = \"file:/\" + path.substring(5);\n    }\n    return new File(new URL(path).toURI());\n} catch (final MalformedURLException e) {\n} catch (final URISyntaxException e) {\n}\nif (path.startsWith(\"file:\")) {\n    path = path.substring(5);\n    return new File(path);\n}\nthrow new IllegalArgumentException(\"Invalid URL: \" + url);"
+    },
+    {
+        "intent": "How to get the path of a running JAR file?",
+        "snippet": "String path = url;\nif (path.startsWith(\"jar:\")) {\n    final int index = path.indexOf(\"!/\");\n    path = path.substring(4, index);\n}\ntry {\n    if (PlatformUtils.isWindows() && path.matches(\"file:[A-Za-z]:.*\")) {\n        path = \"file:/\" + path.substring(5);\n    }\n    return new File(new URL(path).toURI());\n} catch (final MalformedURLException e) {\n} catch (final URISyntaxException e) {\n}\nif (path.startsWith(\"file:\")) {\n    path = path.substring(5);\n    return new File(path);\n}\nthrow new IllegalArgumentException(\"Invalid URL: \" + url);"
+    },
+    {
+        "intent": "How to get the path of a running JAR file?",
+        "snippet": "String path = url;\nif (path.startsWith(\"jar:\")) {\n    final int index = path.indexOf(\"!/\");\n    path = path.substring(4, index);\n}\ntry {\n    if (PlatformUtils.isWindows() && path.matches(\"file:[A-Za-z]:.*\")) {\n        path = \"file:/\" + path.substring(5);\n    }\n    return new File(new URL(path).toURI());\n} catch (final MalformedURLException e) {\n} catch (final URISyntaxException e) {\n}\nif (path.startsWith(\"file:\")) {\n    path = path.substring(5);\n    return new File(path);\n}\nthrow new IllegalArgumentException(\"Invalid URL: \" + url);"
+    },
+    {
+        "intent": "How to get the path of a running JAR file?",
+        "snippet": "String path = url;\nif (path.startsWith(\"jar:\")) {\n    final int index = path.indexOf(\"!/\");\n    path = path.substring(4, index);\n}\ntry {\n    if (PlatformUtils.isWindows() && path.matches(\"file:[A-Za-z]:.*\")) {\n        path = \"file:/\" + path.substring(5);\n    }\n    return new File(new URL(path).toURI());\n} catch (final MalformedURLException e) {\n} catch (final URISyntaxException e) {\n}\nif (path.startsWith(\"file:\")) {\n    path = path.substring(5);\n    return new File(path);\n}\nthrow new IllegalArgumentException(\"Invalid URL: \" + url);"
+    },
+    {
+        "intent": "How to get the path of a running JAR file?",
+        "snippet": "String path = url;\nif (path.startsWith(\"jar:\")) {\n    final int index = path.indexOf(\"!/\");\n    path = path.substring(4, index);\n}\ntry {\n    if (PlatformUtils.isWindows() && path.matches(\"file:[A-Za-z]:.*\")) {\n        path = \"file:/\" + path.substring(5);\n    }\n    return new File(new URL(path).toURI());\n} catch (final MalformedURLException e) {\n} catch (final URISyntaxException e) {\n}\nif (path.startsWith(\"file:\")) {\n    path = path.substring(5);\n    return new File(path);\n}\nthrow new IllegalArgumentException(\"Invalid URL: \" + url);"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "How to dynamically add elements to String array?",
+        "snippet": "str.add(\"Value1\");"
+    },
+    {
+        "intent": "Spring Boot - how to configure port",
+        "snippet": "return (container -> {\n    container.setPort(8012);\n});"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "Sorting using Comparator- Descending order (User defined classes)",
+        "snippet": "Collections.sort(people, new Person.AgeComparator());"
+    },
+    {
+        "intent": "How to implement a Map with multiple keys?",
+        "snippet": "Map<K2, K1> m2;\nMap<K1, V> m1;"
+    },
+    {
+        "intent": "Redirect pages in JSP?",
+        "snippet": "response.sendRedirect(redirectURL);"
+    },
+    {
+        "intent": "Show only two digit after decimal",
+        "snippet": "value = Double.parseDouble(new DecimalFormat(\"##.####\").format(value));"
+    },
+    {
+        "intent": "Show only two digit after decimal",
+        "snippet": "value = Double.parseDouble(new DecimalFormat(\"##.####\").format(value));"
+    },
+    {
+        "intent": "Show only two digit after decimal",
+        "snippet": "value = Double.parseDouble(new DecimalFormat(\"##.####\").format(value));"
+    },
+    {
+        "intent": "How to set delay in android?",
+        "snippet": "Thread.sleep(millis);"
+    },
+    {
+        "intent": "How to set delay in android?",
+        "snippet": "Thread.sleep(millis);"
+    },
+    {
+        "intent": "How to set delay in android?",
+        "snippet": "Thread.sleep(millis);"
+    },
+    {
+        "intent": "Sorting HashMap by values",
+        "snippet": "List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());\nList<String> mapValues = new ArrayList<>(passedMap.values());\nCollections.sort(mapValues);\nCollections.sort(mapKeys);\nLinkedHashMap<Integer, String> sortedMap = new LinkedHashMap<>();\nIterator<String> valueIt = mapValues.iterator();\nwhile (valueIt.hasNext()) {\n    String val = valueIt.next();\n    Iterator<Integer> keyIt = mapKeys.iterator();\n    while (keyIt.hasNext()) {\n        Integer key = keyIt.next();\n        String comp1 = passedMap.get(key);\n        String comp2 = val;\n        if (comp1.equals(comp2)) {\n            keyIt.remove();\n            sortedMap.put(key, val);\n            break;\n        }\n    }\n}"
+    },
+    {
+        "intent": "Sorting HashMap by values",
+        "snippet": "List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());\nList<String> mapValues = new ArrayList<>(passedMap.values());\nCollections.sort(mapValues);\nCollections.sort(mapKeys);\nLinkedHashMap<Integer, String> sortedMap = new LinkedHashMap<>();\nIterator<String> valueIt = mapValues.iterator();\nwhile (valueIt.hasNext()) {\n    String val = valueIt.next();\n    Iterator<Integer> keyIt = mapKeys.iterator();\n    while (keyIt.hasNext()) {\n        Integer key = keyIt.next();\n        String comp1 = passedMap.get(key);\n        String comp2 = val;\n        if (comp1.equals(comp2)) {\n            keyIt.remove();\n            sortedMap.put(key, val);\n            break;\n        }\n    }\n}"
+    },
+    {
+        "intent": "Sorting HashMap by values",
+        "snippet": "List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());\nList<String> mapValues = new ArrayList<>(passedMap.values());\nCollections.sort(mapValues);\nCollections.sort(mapKeys);\nLinkedHashMap<Integer, String> sortedMap = new LinkedHashMap<>();\nIterator<String> valueIt = mapValues.iterator();\nwhile (valueIt.hasNext()) {\n    String val = valueIt.next();\n    Iterator<Integer> keyIt = mapKeys.iterator();\n    while (keyIt.hasNext()) {\n        Integer key = keyIt.next();\n        String comp1 = passedMap.get(key);\n        String comp2 = val;\n        if (comp1.equals(comp2)) {\n            keyIt.remove();\n            sortedMap.put(key, val);\n            break;\n        }\n    }\n}"
+    },
+    {
+        "intent": "Sorting HashMap by values",
+        "snippet": "List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());\nList<String> mapValues = new ArrayList<>(passedMap.values());\nCollections.sort(mapValues);\nCollections.sort(mapKeys);\nLinkedHashMap<Integer, String> sortedMap = new LinkedHashMap<>();\nIterator<String> valueIt = mapValues.iterator();\nwhile (valueIt.hasNext()) {\n    String val = valueIt.next();\n    Iterator<Integer> keyIt = mapKeys.iterator();\n    while (keyIt.hasNext()) {\n        Integer key = keyIt.next();\n        String comp1 = passedMap.get(key);\n        String comp2 = val;\n        if (comp1.equals(comp2)) {\n            keyIt.remove();\n            sortedMap.put(key, val);\n            break;\n        }\n    }\n}"
+    },
+    {
+        "intent": "How do I check if a file exists in Java?",
+        "snippet": "Path path = Paths.get(filePathString);\nif (Files.exists(path)) {\n}"
+    },
+    {
+        "intent": "How do I check if a file exists in Java?",
+        "snippet": "Path path = Paths.get(filePathString);\nif (Files.exists(path)) {\n}"
+    },
+    {
+        "intent": "How do I check if a file exists in Java?",
+        "snippet": "Path path = Paths.get(filePathString);\nif (Files.exists(path)) {\n}"
+    },
+    {
+        "intent": "How do I check if a file exists in Java?",
+        "snippet": "Path path = Paths.get(filePathString);\nif (Files.exists(path)) {\n}"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Take a char input from the Scanner",
+        "snippet": "char c = reader.next().trim().charAt(0);"
+    },
+    {
+        "intent": "Android write to sd card folder",
+        "snippet": "FileWriter writer = new FileWriter(getExternalStorageDirectory());\nwriter.write(\"This\\n is\\n an\\n example\\n\");\nwriter.flush();\nwriter.close();"
+    },
+    {
+        "intent": "Android write to sd card folder",
+        "snippet": "FileWriter writer = new FileWriter(getExternalStorageDirectory());\nwriter.write(\"This\\n is\\n an\\n example\\n\");\nwriter.flush();\nwriter.close();"
+    },
+    {
+        "intent": "Java String new line",
+        "snippet": "System.out.println(\"I\\nam\\na\\nboy\");"
+    },
+    {
+        "intent": "Java String new line",
+        "snippet": "System.out.println(\"I\\nam\\na\\nboy\");"
+    },
+    {
+        "intent": "Java String new line",
+        "snippet": "System.out.println(\"I\\nam\\na\\nboy\");"
+    },
+    {
+        "intent": "Java String new line",
+        "snippet": "System.out.println(\"I\\nam\\na\\nboy\");"
+    },
+    {
+        "intent": "Java String new line",
+        "snippet": "System.out.println(\"I\\nam\\na\\nboy\");"
+    },
+    {
+        "intent": "Reading from a text file and storing in a String",
+        "snippet": "BufferedReader br = new BufferedReader(new FileReader(fileName));\ntry {\n    StringBuilder sb = new StringBuilder();\n    String line = br.readLine();\n    while (line != null) {\n        sb.append(line);\n        sb.append(\"\\n\");\n        line = br.readLine();\n    }\n    return sb.toString();\n} finally {\n    br.close();\n}"
+    },
+    {
+        "intent": "How to set time zone of a java.util.Date?",
+        "snippet": "TimeZone.setDefault(TimeZone.getTimeZone(\"UTC\"));"
+    },
+    {
+        "intent": "How to set time zone of a java.util.Date?",
+        "snippet": "TimeZone.setDefault(TimeZone.getTimeZone(\"UTC\"));"
+    },
+    {
+        "intent": "How to insert an object in an ArrayList at a specific position",
+        "snippet": "arrayList.add(1, \"INSERTED ELEMENT\");"
+    },
+    {
+        "intent": "How to insert an object in an ArrayList at a specific position",
+        "snippet": "arrayList.add(1, \"INSERTED ELEMENT\");"
+    },
+    {
+        "intent": "How to insert an object in an ArrayList at a specific position",
+        "snippet": "arrayList.add(1, \"INSERTED ELEMENT\");"
+    },
+    {
+        "intent": "How can I make a multipart/form-data POST request using Java?",
+        "snippet": "HttpURLConnection connection = (HttpURLConnection) url.openConnection();\nconnection.setDoOutput(true);\nconnection.setRequestMethod(\"POST\");\nFileBody fileBody = new FileBody(new File(fileName));\nMultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.STRICT);\nmultipartEntity.addPart(\"file\", fileBody);\nconnection.setRequestProperty(\"Content-Type\", multipartEntity.getContentType().getValue());\nOutputStream out = connection.getOutputStream();\ntry {\n    multipartEntity.writeTo(out);\n} finally {\n    out.close();\n}\nint status = connection.getResponseCode();"
+    },
+    {
+        "intent": "How can I make a multipart/form-data POST request using Java?",
+        "snippet": "HttpURLConnection connection = (HttpURLConnection) url.openConnection();\nconnection.setDoOutput(true);\nconnection.setRequestMethod(\"POST\");\nFileBody fileBody = new FileBody(new File(fileName));\nMultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.STRICT);\nmultipartEntity.addPart(\"file\", fileBody);\nconnection.setRequestProperty(\"Content-Type\", multipartEntity.getContentType().getValue());\nOutputStream out = connection.getOutputStream();\ntry {\n    multipartEntity.writeTo(out);\n} finally {\n    out.close();\n}\nint status = connection.getResponseCode();"
+    },
+    {
+        "intent": "How can I make a multipart/form-data POST request using Java?",
+        "snippet": "HttpURLConnection connection = (HttpURLConnection) url.openConnection();\nconnection.setDoOutput(true);\nconnection.setRequestMethod(\"POST\");\nFileBody fileBody = new FileBody(new File(fileName));\nMultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.STRICT);\nmultipartEntity.addPart(\"file\", fileBody);\nconnection.setRequestProperty(\"Content-Type\", multipartEntity.getContentType().getValue());\nOutputStream out = connection.getOutputStream();\ntry {\n    multipartEntity.writeTo(out);\n} finally {\n    out.close();\n}\nint status = connection.getResponseCode();"
+    },
+    {
+        "intent": "How can I make a multipart/form-data POST request using Java?",
+        "snippet": "HttpURLConnection connection = (HttpURLConnection) url.openConnection();\nconnection.setDoOutput(true);\nconnection.setRequestMethod(\"POST\");\nFileBody fileBody = new FileBody(new File(fileName));\nMultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.STRICT);\nmultipartEntity.addPart(\"file\", fileBody);\nconnection.setRequestProperty(\"Content-Type\", multipartEntity.getContentType().getValue());\nOutputStream out = connection.getOutputStream();\ntry {\n    multipartEntity.writeTo(out);\n} finally {\n    out.close();\n}\nint status = connection.getResponseCode();"
+    },
+    {
+        "intent": "How to use Jackson to deserialise an array of objects",
+        "snippet": "JsonParser jp = f.createJsonParser(new File(\"C:\\\\maven\\\\user.json\"));\nTypeReference<List<User>> tRef = new TypeReference<List<User>>() {\n};\nlstUser = mapper.readValue(jp, tRef);"
+    },
+    {
+        "intent": "How to use Jackson to deserialise an array of objects",
+        "snippet": "JsonParser jp = f.createJsonParser(new File(\"C:\\\\maven\\\\user.json\"));\nTypeReference<List<User>> tRef = new TypeReference<List<User>>() {\n};\nlstUser = mapper.readValue(jp, tRef);"
+    },
+    {
+        "intent": "How to use Jackson to deserialise an array of objects",
+        "snippet": "JsonParser jp = f.createJsonParser(new File(\"C:\\\\maven\\\\user.json\"));\nTypeReference<List<User>> tRef = new TypeReference<List<User>>() {\n};\nlstUser = mapper.readValue(jp, tRef);"
+    },
+    {
+        "intent": "How to use Jackson to deserialise an array of objects",
+        "snippet": "JsonParser jp = f.createJsonParser(new File(\"C:\\\\maven\\\\user.json\"));\nTypeReference<List<User>> tRef = new TypeReference<List<User>>() {\n};\nlstUser = mapper.readValue(jp, tRef);"
+    },
+    {
+        "intent": "How to use Jackson to deserialise an array of objects",
+        "snippet": "JsonParser jp = f.createJsonParser(new File(\"C:\\\\maven\\\\user.json\"));\nTypeReference<List<User>> tRef = new TypeReference<List<User>>() {\n};\nlstUser = mapper.readValue(jp, tRef);"
+    },
+    {
+        "intent": "Get generic type of java.util.List",
+        "snippet": "Field integerListField = Test.class.getDeclaredField(\"integerList\");\nParameterizedType integerListType = (ParameterizedType) integerListField.getGenericType();\nClass<?> integerListClass = (Class<?>) integerListType.getActualTypeArguments()[0];"
+    },
+    {
+        "intent": "Get generic type of java.util.List",
+        "snippet": "Field integerListField = Test.class.getDeclaredField(\"integerList\");\nParameterizedType integerListType = (ParameterizedType) integerListField.getGenericType();\nClass<?> integerListClass = (Class<?>) integerListType.getActualTypeArguments()[0];"
+    },
+    {
+        "intent": "How to sort an ArrayList in Java",
+        "snippet": "Collections.sort(fruits, fieldComparator);"
+    },
+    {
+        "intent": "How to sort an ArrayList in Java",
+        "snippet": "Collections.sort(fruits, fieldComparator);"
+    },
+    {
+        "intent": "How to sort an ArrayList in Java",
+        "snippet": "Collections.sort(fruits, fieldComparator);"
+    },
+    {
+        "intent": "Random shuffling of an array",
+        "snippet": "int index, temp;\nRandom random = new Random();\nfor (int i = array.length - 1; i > 0; i--) {\n    index = random.nextInt(i + 1);\n    temp = array[index];\n    array[index] = array[i];\n    array[i] = temp;\n}"
+    },
+    {
+        "intent": "Random shuffling of an array",
+        "snippet": "int index, temp;\nRandom random = new Random();\nfor (int i = array.length - 1; i > 0; i--) {\n    index = random.nextInt(i + 1);\n    temp = array[index];\n    array[index] = array[i];\n    array[i] = temp;\n}"
+    },
+    {
+        "intent": "Random shuffling of an array",
+        "snippet": "int index, temp;\nRandom random = new Random();\nfor (int i = array.length - 1; i > 0; i--) {\n    index = random.nextInt(i + 1);\n    temp = array[index];\n    array[index] = array[i];\n    array[i] = temp;\n}"
+    },
+    {
+        "intent": "Random shuffling of an array",
+        "snippet": "int index, temp;\nRandom random = new Random();\nfor (int i = array.length - 1; i > 0; i--) {\n    index = random.nextInt(i + 1);\n    temp = array[index];\n    array[index] = array[i];\n    array[i] = temp;\n}"
+    },
+    {
+        "intent": "Reversing an Array in Java",
+        "snippet": "Collections.reverse(list);"
+    },
+    {
+        "intent": "Reversing an Array in Java",
+        "snippet": "Collections.reverse(list);"
+    },
+    {
+        "intent": "Reversing an Array in Java",
+        "snippet": "Collections.reverse(list);"
+    },
+    {
+        "intent": "Splitting a Java String by the pipe symbol using split(\"|\")",
+        "snippet": "String[] result = test.split(\"\\\\|\");"
+    },
+    {
+        "intent": "Splitting a Java String by the pipe symbol using split(\"|\")",
+        "snippet": "String[] result = test.split(\"\\\\|\");"
+    },
+    {
+        "intent": "Splitting a Java String by the pipe symbol using split(\"|\")",
+        "snippet": "String[] result = test.split(\"\\\\|\");"
+    },
+    {
+        "intent": "Splitting a Java String by the pipe symbol using split(\"|\")",
+        "snippet": "String[] result = test.split(\"\\\\|\");"
+    },
+    {
+        "intent": "Sending POST data in Android",
+        "snippet": "URL url;\nString response = \"\";\ntry {\n    url = new URL(requestURL);\n    HttpURLConnection conn = (HttpURLConnection) url.openConnection();\n    conn.setReadTimeout(15000);\n    conn.setConnectTimeout(15000);\n    conn.setRequestMethod(\"GET\");\n    conn.setDoInput(true);\n    conn.setDoOutput(true);\n    OutputStream os = conn.getOutputStream();\n    BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, \"UTF-8\"));\n    writer.write(getPostDataString(postDataParams));\n    writer.flush();\n    writer.close();\n    os.close();\n    int responseCode = conn.getResponseCode();\n    if (responseCode == HttpsURLConnection.HTTP_OK) {\n        String line;\n        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));\n        while ((line = br.readLine()) != null) {\n            response += line;\n        }\n    } else {\n        response = \"\";\n    }\n} catch (Exception e) {\n    e.printStackTrace();\n}"
+    },
+    {
+        "intent": "Sending POST data in Android",
+        "snippet": "URL url;\nString response = \"\";\ntry {\n    url = new URL(requestURL);\n    HttpURLConnection conn = (HttpURLConnection) url.openConnection();\n    conn.setReadTimeout(15000);\n    conn.setConnectTimeout(15000);\n    conn.setRequestMethod(\"GET\");\n    conn.setDoInput(true);\n    conn.setDoOutput(true);\n    OutputStream os = conn.getOutputStream();\n    BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, \"UTF-8\"));\n    writer.write(getPostDataString(postDataParams));\n    writer.flush();\n    writer.close();\n    os.close();\n    int responseCode = conn.getResponseCode();\n    if (responseCode == HttpsURLConnection.HTTP_OK) {\n        String line;\n        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));\n        while ((line = br.readLine()) != null) {\n            response += line;\n        }\n    } else {\n        response = \"\";\n    }\n} catch (Exception e) {\n    e.printStackTrace();\n}"
+    },
+    {
+        "intent": "Sending POST data in Android",
+        "snippet": "URL url;\nString response = \"\";\ntry {\n    url = new URL(requestURL);\n    HttpURLConnection conn = (HttpURLConnection) url.openConnection();\n    conn.setReadTimeout(15000);\n    conn.setConnectTimeout(15000);\n    conn.setRequestMethod(\"GET\");\n    conn.setDoInput(true);\n    conn.setDoOutput(true);\n    OutputStream os = conn.getOutputStream();\n    BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, \"UTF-8\"));\n    writer.write(getPostDataString(postDataParams));\n    writer.flush();\n    writer.close();\n    os.close();\n    int responseCode = conn.getResponseCode();\n    if (responseCode == HttpsURLConnection.HTTP_OK) {\n        String line;\n        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));\n        while ((line = br.readLine()) != null) {\n            response += line;\n        }\n    } else {\n        response = \"\";\n    }\n} catch (Exception e) {\n    e.printStackTrace();\n}"
+    },
+    {
+        "intent": "How to do a SOAP Web Service call from Java class?",
+        "snippet": "String res = defaultWebService.getDefaultWebServiceHttpSoap11Endpoint().login(\"webservice\", \"dadsadasdasd\");"
+    },
+    {
+        "intent": "How to do a SOAP Web Service call from Java class?",
+        "snippet": "String res = defaultWebService.getDefaultWebServiceHttpSoap11Endpoint().login(\"webservice\", \"dadsadasdasd\");"
+    },
+    {
+        "intent": "How to convert a String into an ArrayList?",
+        "snippet": "ArrayList<Character> charList = new ArrayList<Character>();\nfor (int i = 0; i < str.length(); i++) {\n    charList.add(str.charAt(i));\n}"
+    },
+    {
+        "intent": "How to convert a String into an ArrayList?",
+        "snippet": "ArrayList<Character> charList = new ArrayList<Character>();\nfor (int i = 0; i < str.length(); i++) {\n    charList.add(str.charAt(i));\n}"
+    },
+    {
+        "intent": "How to convert a String into an ArrayList?",
+        "snippet": "ArrayList<Character> charList = new ArrayList<Character>();\nfor (int i = 0; i < str.length(); i++) {\n    charList.add(str.charAt(i));\n}"
+    },
+    {
+        "intent": "How to convert a String into an ArrayList?",
+        "snippet": "ArrayList<Character> charList = new ArrayList<Character>();\nfor (int i = 0; i < str.length(); i++) {\n    charList.add(str.charAt(i));\n}"
+    },
+    {
+        "intent": "How to get image height and width using java?",
+        "snippet": "int width = bimg.getWidth();\nint height = bimg.getHeight();"
+    },
+    {
+        "intent": "How to open a txt file and read numbers in java",
+        "snippet": "BufferedReader br = new BufferedReader(new FileReader(\"textfile.txt\"));\nString strLine;\nwhile ((strLine = br.readLine()) != null) {\n    System.out.println(strLine);\n}"
+    },
+    {
+        "intent": "How to open a txt file and read numbers in java",
+        "snippet": "BufferedReader br = new BufferedReader(new FileReader(\"textfile.txt\"));\nString strLine;\nwhile ((strLine = br.readLine()) != null) {\n    System.out.println(strLine);\n}"
+    },
+    {
+        "intent": "How to open a txt file and read numbers in java",
+        "snippet": "BufferedReader br = new BufferedReader(new FileReader(\"textfile.txt\"));\nString strLine;\nwhile ((strLine = br.readLine()) != null) {\n    System.out.println(strLine);\n}"
+    },
+    {
+        "intent": "How do I reverse an int array in Java?",
+        "snippet": "List<Object> list = Arrays.asList(arr);\nCollections.reverse(list);"
+    },
+    {
+        "intent": "How do I reverse an int array in Java?",
+        "snippet": "List<Object> list = Arrays.asList(arr);\nCollections.reverse(list);"
+    },
+    {
+        "intent": "Java dynamic array sizes?",
+        "snippet": "list.add(new xClass());"
+    },
+    {
+        "intent": "Java dynamic array sizes?",
+        "snippet": "list.add(new xClass());"
+    },
+    {
+        "intent": "How do I delete specific characters from a particular String in Java?",
+        "snippet": "s = s.replace(\".\", \"\");"
+    },
+    {
+        "intent": "How do I delete specific characters from a particular String in Java?",
+        "snippet": "s = s.replace(\".\", \"\");"
+    },
+    {
+        "intent": "How do I delete specific characters from a particular String in Java?",
+        "snippet": "s = s.replace(\".\", \"\");"
+    },
+    {
+        "intent": "How do I delete specific characters from a particular String in Java?",
+        "snippet": "s = s.replace(\".\", \"\");"
+    },
+    {
+        "intent": "How do I delete specific characters from a particular String in Java?",
+        "snippet": "s = s.replace(\".\", \"\");"
+    },
+    {
+        "intent": "print arraylist element?",
+        "snippet": "System.out.println(list.get(index));"
+    },
+    {
+        "intent": "How to get current moment in ISO 8601 format with date, hour, and minute?",
+        "snippet": "thisMoment = String.format(\"%tFT%<tRZ\", Calendar.getInstance(TimeZone.getTimeZone(\"Z\")));"
+    },
+    {
+        "intent": "How to get current moment in ISO 8601 format with date, hour, and minute?",
+        "snippet": "thisMoment = String.format(\"%tFT%<tRZ\", Calendar.getInstance(TimeZone.getTimeZone(\"Z\")));"
+    },
+    {
+        "intent": "How to get current moment in ISO 8601 format with date, hour, and minute?",
+        "snippet": "thisMoment = String.format(\"%tFT%<tRZ\", Calendar.getInstance(TimeZone.getTimeZone(\"Z\")));"
+    },
+    {
+        "intent": "How to get current moment in ISO 8601 format with date, hour, and minute?",
+        "snippet": "thisMoment = String.format(\"%tFT%<tRZ\", Calendar.getInstance(TimeZone.getTimeZone(\"Z\")));"
+    },
+    {
+        "intent": "How to use Collections.sort() in JAVA ? (Specific situation)",
+        "snippet": "Collections.sort(recipes, (Recipe r1, Recipe r2) -> r1.getID().compareTo(r2.getID()));"
+    },
+    {
+        "intent": "How to use Collections.sort() in JAVA ? (Specific situation)",
+        "snippet": "Collections.sort(recipes, (Recipe r1, Recipe r2) -> r1.getID().compareTo(r2.getID()));"
+    },
+    {
+        "intent": "How to convert ASCII code (0-255) to a String of the associated character?",
+        "snippet": "Character.toString((char) i);"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Convert array of strings into a string in Java",
+        "snippet": "String.join(\", \", \"Harry\", \"Ron\", \"Hermione\");"
+    },
+    {
+        "intent": "Sort objects in ArrayList by date?",
+        "snippet": "Collections.sort(myList, new Comparator<MyObject>() {\n\n    public int compare(MyObject o1, MyObject o2) {\n        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;\n    }\n});"
+    },
+    {
+        "intent": "Sort objects in ArrayList by date?",
+        "snippet": "Collections.sort(myList, new Comparator<MyObject>() {\n\n    public int compare(MyObject o1, MyObject o2) {\n        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;\n    }\n});"
+    },
+    {
+        "intent": "Sort objects in ArrayList by date?",
+        "snippet": "Collections.sort(myList, new Comparator<MyObject>() {\n\n    public int compare(MyObject o1, MyObject o2) {\n        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;\n    }\n});"
+    },
+    {
+        "intent": "Sort objects in ArrayList by date?",
+        "snippet": "Collections.sort(myList, new Comparator<MyObject>() {\n\n    public int compare(MyObject o1, MyObject o2) {\n        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;\n    }\n});"
+    },
+    {
+        "intent": "Sort objects in ArrayList by date?",
+        "snippet": "Collections.sort(myList, new Comparator<MyObject>() {\n\n    public int compare(MyObject o1, MyObject o2) {\n        return o1.getDateTime().lt(o2.getDateTime()) ? -1 : 1;\n    }\n});"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "How can I convert integer into float in Java?",
+        "snippet": "float z = x * 1.0 / y;"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Java: how to initialize String[]?",
+        "snippet": "String[] errorSoon = new String[2];\nerrorSoon[0] = \"foo\";\nerrorSoon[1] = \"bar\";"
+    },
+    {
+        "intent": "Generating all permutations of a given string",
+        "snippet": "public static ArrayList<String> permutation(String s) {\n    ArrayList<String> res = new ArrayList<String>();\n    if (s.length() == 1) {\n        res.add(s);\n    } else if (s.length() > 1) {\n        int lastIndex = s.length() - 1;\n        String last = s.substring(lastIndex);\n        String rest = s.substring(0, lastIndex);\n        res = merge(permutation(rest), last);\n    }\n    return res;\n}\npublic static ArrayList<String> merge(ArrayList<String> list, String c) {\n    ArrayList<String> res = new ArrayList<String>();\n    for (String s : list) {\n        for (int i = 0; i <= s.length(); ++i) {\n            String ps = new StringBuffer(s).insert(i, c).toString();\n            res.add(ps);\n        }\n    }\n    return res;\n}"
+    },
+    {
+        "intent": "Generating all permutations of a given string",
+        "snippet": "public static ArrayList<String> permutation(String s) {\n    ArrayList<String> res = new ArrayList<String>();\n    if (s.length() == 1) {\n        res.add(s);\n    } else if (s.length() > 1) {\n        int lastIndex = s.length() - 1;\n        String last = s.substring(lastIndex);\n        String rest = s.substring(0, lastIndex);\n        res = merge(permutation(rest), last);\n    }\n    return res;\n}\npublic static ArrayList<String> merge(ArrayList<String> list, String c) {\n    ArrayList<String> res = new ArrayList<String>();\n    for (String s : list) {\n        for (int i = 0; i <= s.length(); ++i) {\n            String ps = new StringBuffer(s).insert(i, c).toString();\n            res.add(ps);\n        }\n    }\n    return res;\n}"
+    },
+    {
+        "intent": "Java ArrayList - Check if list is empty",
+        "snippet": "listName.isEmpty();"
+    },
+    {
+        "intent": "Creating a triangle with for loops",
+        "snippet": "for (int i = 0; i < 5; i++) {\n    printTriangleLine(i);\n}"
+    },
+    {
+        "intent": "Creating a triangle with for loops",
+        "snippet": "for (int i = 0; i < 5; i++) {\n    printTriangleLine(i);\n}"
+    },
+    {
+        "intent": "Creating a triangle with for loops",
+        "snippet": "for (int i = 0; i < 5; i++) {\n    printTriangleLine(i);\n}"
+    },
+    {
+        "intent": "Remove last character of a StringBuilder?",
+        "snippet": "sb.deleteCharAt(sb.length() - 1);"
+    },
+    {
+        "intent": "Remove last character of a StringBuilder?",
+        "snippet": "sb.deleteCharAt(sb.length() - 1);"
+    },
+    {
+        "intent": "Remove last character of a StringBuilder?",
+        "snippet": "sb.deleteCharAt(sb.length() - 1);"
+    },
+    {
+        "intent": "Remove last character of a StringBuilder?",
+        "snippet": "sb.deleteCharAt(sb.length() - 1);"
+    },
+    {
+        "intent": "Remove last character of a StringBuilder?",
+        "snippet": "sb.deleteCharAt(sb.length() - 1);"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "How to delete stuff printed to console by System.out.println()?",
+        "snippet": "System.out.print(String.format(\"\\033[2J\"));"
+    },
+    {
+        "intent": "find the duration of difference between two dates",
+        "snippet": "Duration dur = Duration.between(start, stop);\nlong hours = dur.toHours();\nlong minutes = dur.toMinutes();"
+    },
+    {
+        "intent": "find the duration of difference between two dates",
+        "snippet": "Duration dur = Duration.between(start, stop);\nlong hours = dur.toHours();\nlong minutes = dur.toMinutes();"
+    },
+    {
+        "intent": "find the duration of difference between two dates",
+        "snippet": "Duration dur = Duration.between(start, stop);\nlong hours = dur.toHours();\nlong minutes = dur.toMinutes();"
+    },
+    {
+        "intent": "find the duration of difference between two dates",
+        "snippet": "Duration dur = Duration.between(start, stop);\nlong hours = dur.toHours();\nlong minutes = dur.toMinutes();"
+    },
+    {
+        "intent": "When using Spring Security, what is the proper way to obtain current username (i.e. SecurityContext) information in a bean?",
+        "snippet": "final String currentUser = principal.getName();"
+    },
+    {
+        "intent": "How print out the contents of a HashMap<String, String> in ascending order based on its values?",
+        "snippet": "Map<String, String> reversedMap = new TreeMap<String, String>(codes);\nfor (Map.Entry entry : reversedMap.entrySet()) {\n    System.out.println(entry.getKey() + \", \" + entry.getValue());\n}"
+    },
+    {
+        "intent": "How print out the contents of a HashMap<String, String> in ascending order based on its values?",
+        "snippet": "Map<String, String> reversedMap = new TreeMap<String, String>(codes);\nfor (Map.Entry entry : reversedMap.entrySet()) {\n    System.out.println(entry.getKey() + \", \" + entry.getValue());\n}"
+    },
+    {
+        "intent": "Split Java String by New Line",
+        "snippet": "String.split(\"[\\\\r\\\\n]+\");"
+    },
+    {
+        "intent": "Split Java String by New Line",
+        "snippet": "String.split(\"[\\\\r\\\\n]+\");"
+    },
+    {
+        "intent": "Java: Convert String to TimeStamp",
+        "snippet": "Date date = formatter.parse(str_date);\njava.sql.Timestamp timeStampDate = new Timestamp(date.getTime());"
+    },
+    {
+        "intent": "Java: Convert String to TimeStamp",
+        "snippet": "Date date = formatter.parse(str_date);\njava.sql.Timestamp timeStampDate = new Timestamp(date.getTime());"
+    },
+    {
+        "intent": "Can we make unsigned byte in Java",
+        "snippet": "int unsignedByte = b & 0xFF;\nSystem.out.println(unsignedByte);"
+    },
+    {
+        "intent": "Can we make unsigned byte in Java",
+        "snippet": "int unsignedByte = b & 0xFF;\nSystem.out.println(unsignedByte);"
+    },
+    {
+        "intent": "Can we make unsigned byte in Java",
+        "snippet": "int unsignedByte = b & 0xFF;\nSystem.out.println(unsignedByte);"
+    },
+    {
+        "intent": "How to convert Strings to and from UTF8 byte arrays in Java",
+        "snippet": "return string.getBytes(UTF8_CHARSET);"
+    },
+    {
+        "intent": "How to convert Strings to and from UTF8 byte arrays in Java",
+        "snippet": "return string.getBytes(UTF8_CHARSET);"
+    },
+    {
+        "intent": "How to convert Strings to and from UTF8 byte arrays in Java",
+        "snippet": "return string.getBytes(UTF8_CHARSET);"
+    },
+    {
+        "intent": "How to convert Strings to and from UTF8 byte arrays in Java",
+        "snippet": "return string.getBytes(UTF8_CHARSET);"
+    },
+    {
+        "intent": "How to remove the last character from a string?",
+        "snippet": "\"aaabcd\".replaceFirst(\".$\", \"\");"
+    },
+    {
+        "intent": "How to remove the last character from a string?",
+        "snippet": "\"aaabcd\".replaceFirst(\".$\", \"\");"
+    },
+    {
+        "intent": "How to remove the last character from a string?",
+        "snippet": "\"aaabcd\".replaceFirst(\".$\", \"\");"
+    },
+    {
+        "intent": "How to remove the last character from a string?",
+        "snippet": "\"aaabcd\".replaceFirst(\".$\", \"\");"
+    },
+    {
+        "intent": "Connect Java to a MySQL database",
+        "snippet": "Class.forName(DATABASE_DRIVER);\nconnection = DriverManager.getConnection(DATABASE_URL, getProperties());"
+    },
+    {
+        "intent": "Connect Java to a MySQL database",
+        "snippet": "Class.forName(DATABASE_DRIVER);\nconnection = DriverManager.getConnection(DATABASE_URL, getProperties());"
+    },
+    {
+        "intent": "Connect Java to a MySQL database",
+        "snippet": "Class.forName(DATABASE_DRIVER);\nconnection = DriverManager.getConnection(DATABASE_URL, getProperties());"
+    },
+    {
+        "intent": "Connect Java to a MySQL database",
+        "snippet": "Class.forName(DATABASE_DRIVER);\nconnection = DriverManager.getConnection(DATABASE_URL, getProperties());"
+    },
+    {
+        "intent": "Easiest way to check if a string is palindrome",
+        "snippet": "String workingCopy = removeJunk(stringToTest);\nString reversedCopy = reverse(workingCopy);\nreturn reversedCopy.equalsIgnoreCase(workingCopy);"
+    },
+    {
+        "intent": "Easiest way to check if a string is palindrome",
+        "snippet": "String workingCopy = removeJunk(stringToTest);\nString reversedCopy = reverse(workingCopy);\nreturn reversedCopy.equalsIgnoreCase(workingCopy);"
+    },
+    {
+        "intent": "How do I compare strings in Java?",
+        "snippet": "nullString1.equals(nullString2);"
+    },
+    {
+        "intent": "How do I compare strings in Java?",
+        "snippet": "nullString1.equals(nullString2);"
+    },
+    {
+        "intent": "How do I compare strings in Java?",
+        "snippet": "nullString1.equals(nullString2);"
+    },
+    {
+        "intent": "How do I compare strings in Java?",
+        "snippet": "nullString1.equals(nullString2);"
+    },
+    {
+        "intent": "How do I compare strings in Java?",
+        "snippet": "nullString1.equals(nullString2);"
+    },
+    {
+        "intent": "In Java, how do I convert a byte array to a string of hex digits while keeping leading zeros?",
+        "snippet": "StringBuilder hexString = new StringBuilder();\nfor (int i = 0; i < bytes.length; i++) {\n    String hex = Integer.toHexString(0xFF & bytes[i]);\n    if (hex.length() == 1) {\n        hexString.append('0');\n    }\n    hexString.append(hex);\n}"
+    },
+    {
+        "intent": "In Java, how do I convert a byte array to a string of hex digits while keeping leading zeros?",
+        "snippet": "StringBuilder hexString = new StringBuilder();\nfor (int i = 0; i < bytes.length; i++) {\n    String hex = Integer.toHexString(0xFF & bytes[i]);\n    if (hex.length() == 1) {\n        hexString.append('0');\n    }\n    hexString.append(hex);\n}"
+    },
+    {
+        "intent": "In Java, how do I convert a byte array to a string of hex digits while keeping leading zeros?",
+        "snippet": "StringBuilder hexString = new StringBuilder();\nfor (int i = 0; i < bytes.length; i++) {\n    String hex = Integer.toHexString(0xFF & bytes[i]);\n    if (hex.length() == 1) {\n        hexString.append('0');\n    }\n    hexString.append(hex);\n}"
+    },
+    {
+        "intent": "Use String.split() with multiple delimiters",
+        "snippet": "String[] tokens = pdfName.split(\"\\\\W\");"
+    },
+    {
+        "intent": "Use String.split() with multiple delimiters",
+        "snippet": "String[] tokens = pdfName.split(\"\\\\W\");"
+    },
+    {
+        "intent": "How do I set the colour of a label (coloured text) in Java?",
+        "snippet": "label.setForeground(Color.red);"
+    },
+    {
+        "intent": "How do I set the colour of a label (coloured text) in Java?",
+        "snippet": "label.setForeground(Color.red);"
+    },
+    {
+        "intent": "How do I set the colour of a label (coloured text) in Java?",
+        "snippet": "label.setForeground(Color.red);"
+    },
+    {
+        "intent": "How do I set the colour of a label (coloured text) in Java?",
+        "snippet": "label.setForeground(Color.red);"
+    },
+    {
+        "intent": "Creating random numbers with no duplicates",
+        "snippet": "ArrayList<Integer> numbers = new ArrayList<Integer>();\nwhile (numbers.size() < 4) {\n    int random = randomGenerator.nextInt(4);\n    if (!numbers.contains(random)) {\n        numbers.add(random);\n    }\n}"
+    },
+    {
+        "intent": "Creating random numbers with no duplicates",
+        "snippet": "ArrayList<Integer> numbers = new ArrayList<Integer>();\nwhile (numbers.size() < 4) {\n    int random = randomGenerator.nextInt(4);\n    if (!numbers.contains(random)) {\n        numbers.add(random);\n    }\n}"
+    },
+    {
+        "intent": "Creating random numbers with no duplicates",
+        "snippet": "ArrayList<Integer> numbers = new ArrayList<Integer>();\nwhile (numbers.size() < 4) {\n    int random = randomGenerator.nextInt(4);\n    if (!numbers.contains(random)) {\n        numbers.add(random);\n    }\n}"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "Sort a Map<Key, Value> by values (Java)",
+        "snippet": "map = ImmutableSortedMap.copyOf(myOriginalMap, valueComparator);"
+    },
+    {
+        "intent": "How do I read input character-by-character in Java?",
+        "snippet": "BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));\nint c = 0;\nwhile ((c = buffer.read()) != -1) {\n    char character = (char) c;\n    System.out.println(character);\n}"
+    },
+    {
+        "intent": "How do I read input character-by-character in Java?",
+        "snippet": "BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));\nint c = 0;\nwhile ((c = buffer.read()) != -1) {\n    char character = (char) c;\n    System.out.println(character);\n}"
+    },
+    {
+        "intent": "How do I read input character-by-character in Java?",
+        "snippet": "BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));\nint c = 0;\nwhile ((c = buffer.read()) != -1) {\n    char character = (char) c;\n    System.out.println(character);\n}"
+    },
+    {
+        "intent": "How to write logs in text file when using java.util.logging.Logger",
+        "snippet": "logger.info(\"info msg\");\nlogger.severe(\"error message\");\nlogger.fine(\"fine message\");"
+    },
+    {
+        "intent": "How to write logs in text file when using java.util.logging.Logger",
+        "snippet": "logger.info(\"info msg\");\nlogger.severe(\"error message\");\nlogger.fine(\"fine message\");"
+    },
+    {
+        "intent": "How to convert a String to CharSequence?",
+        "snippet": "CharSequence cs = \"string\";"
+    },
+    {
+        "intent": "How to convert a String to CharSequence?",
+        "snippet": "CharSequence cs = \"string\";"
+    },
+    {
+        "intent": "How to convert a String to CharSequence?",
+        "snippet": "CharSequence cs = \"string\";"
+    },
+    {
+        "intent": "How to add new elements to an array?",
+        "snippet": "where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + \"=1\");\nwhere.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + \"=1\");"
+    },
+    {
+        "intent": "How to add new elements to an array?",
+        "snippet": "where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + \"=1\");\nwhere.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + \"=1\");"
+    },
+    {
+        "intent": "How to add new elements to an array?",
+        "snippet": "where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + \"=1\");\nwhere.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + \"=1\");"
+    },
+    {
+        "intent": "How to add new elements to an array?",
+        "snippet": "where.add(ContactsContract.Contacts.HAS_PHONE_NUMBER + \"=1\");\nwhere.add(ContactsContract.Contacts.IN_VISIBLE_GROUP + \"=1\");"
+    },
+    {
+        "intent": "Java current machine name and logged in user?",
+        "snippet": "InetAddress.getLocalHost().getHostName();"
+    },
+    {
+        "intent": "Java current machine name and logged in user?",
+        "snippet": "InetAddress.getLocalHost().getHostName();"
+    },
+    {
+        "intent": "Java current machine name and logged in user?",
+        "snippet": "InetAddress.getLocalHost().getHostName();"
+    },
+    {
+        "intent": "Java current machine name and logged in user?",
+        "snippet": "InetAddress.getLocalHost().getHostName();"
+    },
+    {
+        "intent": "How to get file size in Java",
+        "snippet": "long size = f.length();"
+    },
+    {
+        "intent": "How to get file size in Java",
+        "snippet": "long size = f.length();"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "How to convert a JSON string to a Map<String, String> with Jackson JSON",
+        "snippet": "props = new ObjectMapper().readValue(src, HashMap.class);"
+    },
+    {
+        "intent": "Check if a value exists in ArrayList",
+        "snippet": "System.out.println(\"Is checkUserTwo Preasent = ? \" + employeeList.contains(checkUserTwo));"
+    },
+    {
+        "intent": "Check if a value exists in ArrayList",
+        "snippet": "System.out.println(\"Is checkUserTwo Preasent = ? \" + employeeList.contains(checkUserTwo));"
+    },
+    {
+        "intent": "Check if a value exists in ArrayList",
+        "snippet": "System.out.println(\"Is checkUserTwo Preasent = ? \" + employeeList.contains(checkUserTwo));"
+    },
+    {
+        "intent": "Java Hashmap: How to get key from value?",
+        "snippet": "for (Entry<Integer, String> entry : testMap.entrySet()) {\n    if (entry.getValue().equals(\"c\")) {\n        System.out.println(entry.getKey());\n    }\n}"
+    },
+    {
+        "intent": "Java Hashmap: How to get key from value?",
+        "snippet": "for (Entry<Integer, String> entry : testMap.entrySet()) {\n    if (entry.getValue().equals(\"c\")) {\n        System.out.println(entry.getKey());\n    }\n}"
+    },
+    {
+        "intent": "Java Hashmap: How to get key from value?",
+        "snippet": "for (Entry<Integer, String> entry : testMap.entrySet()) {\n    if (entry.getValue().equals(\"c\")) {\n        System.out.println(entry.getKey());\n    }\n}"
+    },
+    {
+        "intent": "Java Hashmap: How to get key from value?",
+        "snippet": "for (Entry<Integer, String> entry : testMap.entrySet()) {\n    if (entry.getValue().equals(\"c\")) {\n        System.out.println(entry.getKey());\n    }\n}"
+    },
+    {
+        "intent": "Java Hashmap: How to get key from value?",
+        "snippet": "for (Entry<Integer, String> entry : testMap.entrySet()) {\n    if (entry.getValue().equals(\"c\")) {\n        System.out.println(entry.getKey());\n    }\n}"
+    },
+    {
+        "intent": "How do I remove objects from an array in Java?",
+        "snippet": "String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);"
+    },
+    {
+        "intent": "How do I remove objects from an array in Java?",
+        "snippet": "String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);"
+    },
+    {
+        "intent": "How do I remove objects from an array in Java?",
+        "snippet": "String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);"
+    },
+    {
+        "intent": "How do I remove objects from an array in Java?",
+        "snippet": "String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);"
+    },
+    {
+        "intent": "How do I remove objects from an array in Java?",
+        "snippet": "String[] filteredArray = Arrays.stream(array).filter(e -> !e.equals(foo)).toArray(String[]::new);"
+    },
+    {
+        "intent": "How to return multiple values?",
+        "snippet": "String[] ar = new String[2];\nar[0] = name;\nar[1] = location;\nreturn ar;"
+    },
+    {
+        "intent": "Java ResultSet how to check if there are any results",
+        "snippet": "if (!resultSet.next()) {\n}"
+    },
+    {
+        "intent": "Java ResultSet how to check if there are any results",
+        "snippet": "if (!resultSet.next()) {\n}"
+    },
+    {
+        "intent": "How to remove single character from a String",
+        "snippet": "a = a.replace(\"o\", \"\");"
+    },
+    {
+        "intent": "How to remove single character from a String",
+        "snippet": "a = a.replace(\"o\", \"\");"
+    },
+    {
+        "intent": "Java: How to convert List to Map",
+        "snippet": "Map<String, Item> map = list.stream().collect(Collectors.toMap(Item::getKey, item -> item));"
+    },
+    {
+        "intent": "Java: How to convert List to Map",
+        "snippet": "Map<String, Item> map = list.stream().collect(Collectors.toMap(Item::getKey, item -> item));"
+    },
+    {
+        "intent": "Force Java timezone as GMT/UTC",
+        "snippet": "System.setProperty(\"user.timezone\", \"EST\");"
+    },
+    {
+        "intent": "How to color System.out.println output?",
+        "snippet": "System.out.println((char) 27 + \"[31mThis text would show up red\" + (char) 27 + \"[0m\");"
+    },
+    {
+        "intent": "How to color System.out.println output?",
+        "snippet": "System.out.println((char) 27 + \"[31mThis text would show up red\" + (char) 27 + \"[0m\");"
+    },
+    {
+        "intent": "How to capitalize the first character of each word in a string",
+        "snippet": "char[] chars = string.toLowerCase().toCharArray();\nboolean found = false;\nfor (int i = 0; i < chars.length; i++) {\n    if (!found && Character.isLetter(chars[i])) {\n        chars[i] = Character.toUpperCase(chars[i]);\n        found = true;\n    } else if (Character.isWhitespace(chars[i]) || chars[i] == '.' || chars[i] == '\\'') {\n        found = false;\n    }\n}"
+    },
+    {
+        "intent": "How to capitalize the first character of each word in a string",
+        "snippet": "char[] chars = string.toLowerCase().toCharArray();\nboolean found = false;\nfor (int i = 0; i < chars.length; i++) {\n    if (!found && Character.isLetter(chars[i])) {\n        chars[i] = Character.toUpperCase(chars[i]);\n        found = true;\n    } else if (Character.isWhitespace(chars[i]) || chars[i] == '.' || chars[i] == '\\'') {\n        found = false;\n    }\n}"
+    },
+    {
+        "intent": "how to sort Map values by key in Java",
+        "snippet": "Map<String, String> treeMap = new TreeMap<String, String>(map);"
+    },
+    {
+        "intent": "how to sort Map values by key in Java",
+        "snippet": "Map<String, String> treeMap = new TreeMap<String, String>(map);"
+    },
+    {
+        "intent": "how to sort Map values by key in Java",
+        "snippet": "Map<String, String> treeMap = new TreeMap<String, String>(map);"
+    },
+    {
+        "intent": "how to sort Map values by key in Java",
+        "snippet": "Map<String, String> treeMap = new TreeMap<String, String>(map);"
+    },
+    {
+        "intent": "Remove HTML tags from a String",
+        "snippet": "replaceAll(\"\\\\<[^>]*>\", \"\");"
+    },
+    {
+        "intent": "Remove HTML tags from a String",
+        "snippet": "replaceAll(\"\\\\<[^>]*>\", \"\");"
+    },
+    {
+        "intent": "Remove HTML tags from a String",
+        "snippet": "replaceAll(\"\\\\<[^>]*>\", \"\");"
+    },
+    {
+        "intent": "Create instance of generic type in Java?",
+        "snippet": "return factory.create();"
+    },
+    {
+        "intent": "Create instance of generic type in Java?",
+        "snippet": "return factory.create();"
+    },
+    {
+        "intent": "Create instance of generic type in Java?",
+        "snippet": "return factory.create();"
+    },
+    {
+        "intent": "How can I set size of a button?",
+        "snippet": "btn.setPreferredSize(new Dimension(40, 40));"
+    },
+    {
+        "intent": "How can I set size of a button?",
+        "snippet": "btn.setPreferredSize(new Dimension(40, 40));"
+    },
+    {
+        "intent": "How can I set size of a button?",
+        "snippet": "btn.setPreferredSize(new Dimension(40, 40));"
+    },
+    {
+        "intent": "Gson: How to exclude specific fields from Serialization without annotations",
+        "snippet": "Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat(\"in.naishe.test.Country.name\")).create();\nStudent src = new Student();\nString json = gson.toJson(src);"
+    },
+    {
+        "intent": "Gson: How to exclude specific fields from Serialization without annotations",
+        "snippet": "Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat(\"in.naishe.test.Country.name\")).create();\nStudent src = new Student();\nString json = gson.toJson(src);"
+    },
+    {
+        "intent": "Gson: How to exclude specific fields from Serialization without annotations",
+        "snippet": "Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat(\"in.naishe.test.Country.name\")).create();\nStudent src = new Student();\nString json = gson.toJson(src);"
+    },
+    {
+        "intent": "Gson: How to exclude specific fields from Serialization without annotations",
+        "snippet": "Gson gson = new GsonBuilder().setExclusionStrategies(new TestExclStrat(\"in.naishe.test.Country.name\")).create();\nStudent src = new Student();\nString json = gson.toJson(src);"
+    },
+    {
+        "intent": "File path to resource in our war/WEB-INF folder?",
+        "snippet": "InputStream resource = getServletContext().getResourceAsStream(\"/WEB-INF/my.json\");"
+    },
+    {
+        "intent": "File path to resource in our war/WEB-INF folder?",
+        "snippet": "InputStream resource = getServletContext().getResourceAsStream(\"/WEB-INF/my.json\");"
+    },
+    {
+        "intent": "File path to resource in our war/WEB-INF folder?",
+        "snippet": "InputStream resource = getServletContext().getResourceAsStream(\"/WEB-INF/my.json\");"
+    },
+    {
+        "intent": "File path to resource in our war/WEB-INF folder?",
+        "snippet": "InputStream resource = getServletContext().getResourceAsStream(\"/WEB-INF/my.json\");"
+    },
+    {
+        "intent": "how we check for null array in java",
+        "snippet": "if (i == null || i.length == 0) {\n}"
+    },
+    {
+        "intent": "how we check for null array in java",
+        "snippet": "if (i == null || i.length == 0) {\n}"
+    },
+    {
+        "intent": "how we check for null array in java",
+        "snippet": "if (i == null || i.length == 0) {\n}"
+    },
+    {
+        "intent": "how we check for null array in java",
+        "snippet": "if (i == null || i.length == 0) {\n}"
+    },
+    {
+        "intent": "list all files in the folder and also sub folders",
+        "snippet": "File directory = new File(directoryName);\nList<File> resultList = new ArrayList<File>();\nFile[] fList = directory.listFiles();\nresultList.addAll(Arrays.asList(fList));\nfor (File file : fList) {\n    if (file.isFile()) {\n        System.out.println(file.getAbsolutePath());\n    } else if (file.isDirectory()) {\n        resultList.addAll(listf(file.getAbsolutePath()));\n    }\n}"
+    },
+    {
+        "intent": "list all files in the folder and also sub folders",
+        "snippet": "File directory = new File(directoryName);\nList<File> resultList = new ArrayList<File>();\nFile[] fList = directory.listFiles();\nresultList.addAll(Arrays.asList(fList));\nfor (File file : fList) {\n    if (file.isFile()) {\n        System.out.println(file.getAbsolutePath());\n    } else if (file.isDirectory()) {\n        resultList.addAll(listf(file.getAbsolutePath()));\n    }\n}"
+    },
+    {
+        "intent": "initializing a boolean array in java",
+        "snippet": "Arrays.fill(array, Boolean.FALSE);"
+    },
+    {
+        "intent": "initializing a boolean array in java",
+        "snippet": "Arrays.fill(array, Boolean.FALSE);"
+    },
+    {
+        "intent": "How to print color in console using System.out.println?",
+        "snippet": "print(\"Hello World!\", Attribute.BOLD, FColor.YELLOW, BColor.GREEN);"
+    },
+    {
+        "intent": "How to print color in console using System.out.println?",
+        "snippet": "print(\"Hello World!\", Attribute.BOLD, FColor.YELLOW, BColor.GREEN);"
+    },
+    {
+        "intent": "How to find the index of an element in an array in Java?",
+        "snippet": "for (int i = 0; i < list.length; i++) {\n    if (list[i] == 'e') {\n        System.out.println(i);\n        break;\n    }\n}"
+    },
+    {
+        "intent": "How to find the index of an element in an array in Java?",
+        "snippet": "for (int i = 0; i < list.length; i++) {\n    if (list[i] == 'e') {\n        System.out.println(i);\n        break;\n    }\n}"
+    },
+    {
+        "intent": "How to find the index of an element in an array in Java?",
+        "snippet": "for (int i = 0; i < list.length; i++) {\n    if (list[i] == 'e') {\n        System.out.println(i);\n        break;\n    }\n}"
+    },
+    {
+        "intent": "How to find the index of an element in an array in Java?",
+        "snippet": "for (int i = 0; i < list.length; i++) {\n    if (list[i] == 'e') {\n        System.out.println(i);\n        break;\n    }\n}"
+    },
+    {
+        "intent": "How to find the index of an element in an array in Java?",
+        "snippet": "for (int i = 0; i < list.length; i++) {\n    if (list[i] == 'e') {\n        System.out.println(i);\n        break;\n    }\n}"
+    },
+    {
+        "intent": "How to convert List<Integer> to int[] in Java?",
+        "snippet": "int[] intArray2 = ArrayUtils.toPrimitive(myList.toArray(NO_INTS));"
+    },
+    {
+        "intent": "How to convert List<Integer> to int[] in Java?",
+        "snippet": "int[] intArray2 = ArrayUtils.toPrimitive(myList.toArray(NO_INTS));"
+    },
+    {
+        "intent": "How to convert List<Integer> to int[] in Java?",
+        "snippet": "int[] intArray2 = ArrayUtils.toPrimitive(myList.toArray(NO_INTS));"
+    },
+    {
+        "intent": "How to convert List<Integer> to int[] in Java?",
+        "snippet": "int[] intArray2 = ArrayUtils.toPrimitive(myList.toArray(NO_INTS));"
+    },
+    {
+        "intent": "Java 8 List<V> into Map<K, V>",
+        "snippet": "Map<String, Choice> result = choices.stream().collect(Collectors.toMap(Choice::getName, c -> c));"
+    },
+    {
+        "intent": "Java 8 List<V> into Map<K, V>",
+        "snippet": "Map<String, Choice> result = choices.stream().collect(Collectors.toMap(Choice::getName, c -> c));"
+    },
+    {
+        "intent": "Java 8 List<V> into Map<K, V>",
+        "snippet": "Map<String, Choice> result = choices.stream().collect(Collectors.toMap(Choice::getName, c -> c));"
+    },
+    {
+        "intent": "Converting from byte to int in java",
+        "snippet": "int v1 = b;"
+    },
+    {
+        "intent": "Converting from byte to int in java",
+        "snippet": "int v1 = b;"
+    },
+    {
+        "intent": "Converting from byte to int in java",
+        "snippet": "int v1 = b;"
+    },
+    {
+        "intent": "Converting from byte to int in java",
+        "snippet": "int v1 = b;"
+    },
+    {
+        "intent": "Cast Double to Integer in Java",
+        "snippet": "Long L = Math.round(d);\nint i = Integer.valueOf(L.intValue());"
+    },
+    {
+        "intent": "Cast Double to Integer in Java",
+        "snippet": "Long L = Math.round(d);\nint i = Integer.valueOf(L.intValue());"
+    },
+    {
+        "intent": "Cast Double to Integer in Java",
+        "snippet": "Long L = Math.round(d);\nint i = Integer.valueOf(L.intValue());"
+    },
+    {
+        "intent": "Cast Double to Integer in Java",
+        "snippet": "Long L = Math.round(d);\nint i = Integer.valueOf(L.intValue());"
+    },
+    {
+        "intent": "Cast Double to Integer in Java",
+        "snippet": "Long L = Math.round(d);\nint i = Integer.valueOf(L.intValue());"
+    },
+    {
+        "intent": "What is simplest way to read a file into String?",
+        "snippet": "FileInputStream fisTargetFile = new FileInputStream(new File(\"test.txt\"));\nString targetFileStr = IOUtils.toString(fisTargetFile, \"UTF-8\");"
+    },
+    {
+        "intent": "What is simplest way to read a file into String?",
+        "snippet": "FileInputStream fisTargetFile = new FileInputStream(new File(\"test.txt\"));\nString targetFileStr = IOUtils.toString(fisTargetFile, \"UTF-8\");"
+    },
+    {
+        "intent": "What is simplest way to read a file into String?",
+        "snippet": "FileInputStream fisTargetFile = new FileInputStream(new File(\"test.txt\"));\nString targetFileStr = IOUtils.toString(fisTargetFile, \"UTF-8\");"
+    },
+    {
+        "intent": "Create an Array of Arraylists",
+        "snippet": "ArrayList<String>[] group = new ArrayList[4];"
+    },
+    {
+        "intent": "Create an Array of Arraylists",
+        "snippet": "ArrayList<String>[] group = new ArrayList[4];"
+    },
+    {
+        "intent": "Create an Array of Arraylists",
+        "snippet": "ArrayList<String>[] group = new ArrayList[4];"
+    },
+    {
+        "intent": "Create an Array of Arraylists",
+        "snippet": "ArrayList<String>[] group = new ArrayList[4];"
+    },
+    {
+        "intent": "How to read XML response from a URL in java?",
+        "snippet": "XMLReader myReader = XMLReaderFactory.createXMLReader();\nmyReader.setContentHandler(handler);\nmyReader.parse(new InputSource(new URL(url).openStream()));"
+    },
+    {
+        "intent": "How to read XML response from a URL in java?",
+        "snippet": "XMLReader myReader = XMLReaderFactory.createXMLReader();\nmyReader.setContentHandler(handler);\nmyReader.parse(new InputSource(new URL(url).openStream()));"
+    },
+    {
+        "intent": "How to read XML response from a URL in java?",
+        "snippet": "XMLReader myReader = XMLReaderFactory.createXMLReader();\nmyReader.setContentHandler(handler);\nmyReader.parse(new InputSource(new URL(url).openStream()));"
+    },
+    {
+        "intent": "How to read XML response from a URL in java?",
+        "snippet": "XMLReader myReader = XMLReaderFactory.createXMLReader();\nmyReader.setContentHandler(handler);\nmyReader.parse(new InputSource(new URL(url).openStream()));"
+    }
+]
