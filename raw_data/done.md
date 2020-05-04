@@ -31,20 +31,20 @@ Un post est utilisé si son titre respecte les critères suvants:
     
 ## Données obtenues après traitement
 
-> nombre total de posts parcourus (A): 10096
+> nombre total de posts parcourus (A): 11396
 
-> nombre total de questions obtenues (B): 4659
+> nombre total de questions obtenues (B): 5239
 
-> nombre de questions ayant une réponse acceptée et java comme premier tag (C): 4008
+> nombre de questions ayant une réponse acceptée et java comme premier tag (C): 4482
 
-> nombre de questions ayant du code source dans la réponse acceptée (D): 2230
+> nombre de questions ayant du code source dans la réponse acceptée (D): 2284
 
-> nombre de questions ayant du code source java dans la réponse acceptée (E): 1030
+> nombre de questions ayant du code source java dans la réponse acceptée (E): 1058
 
-> nombre d'exemples (text/snippet) après traitement dans le dataset (F): **1030**
+> nombre d'exemples (text/snippet) après traitement dans le dataset (F): **1058**
 
 ## Recap
 
-From stackoverflow: **1030 text/snippet**
+From stackoverflow: **1058 text/snippet**
 
 From conala dataset: **330 text/snippet**
